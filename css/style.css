@@ -1,0 +1,253 @@
+@charset "UTF-8";
+
+html {
+    font-size: 16px;
+
+}
+
+body {
+    margin: 0;
+    background-image: url("../img/fog.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(248, 248, 248);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 50px auto auto 300px;
+    grid-template-areas: 
+    "   nav    "
+    "  header  "
+    "   main   "
+    "  footer  ";
+}
+
+header, main {
+    padding: 10px;
+    margin: auto;
+    max-width: 1000px;
+    width: 95%;
+}
+
+nav {
+    padding: 10px;
+    grid-area: nav;
+    display: grid;
+    grid-template-columns: 0.5fr 1fr 6fr 1fr;
+    color: whitesmoke;
+}
+
+
+header {
+    grid-area: header;
+    margin-top: 30px;
+    color: whitesmoke;
+}
+
+main {
+    grid-area: main;
+    margin-bottom: 40px;
+}
+
+footer {
+    grid-area: footer;
+    background-color: rgb(185, 192, 179);
+    text-align: center;
+}
+
+.post {
+    display: grid;
+    grid-template-rows: auto auto auto auto;
+    grid-template-columns: 3fr 8fr 2fr;
+    grid-template-areas: 
+    " heading . date "
+    " text text text "
+    "  .  .   author "
+    " comments comments comments ";
+    padding: 0 20px;
+    margin-bottom: 20px;
+    background: rgba(219, 219, 219, 0.800);
+}
+
+.heading {
+    grid-area: heading;
+}
+
+.date {
+    grid-area: date;
+    font-size: 0.7rem;
+}
+
+.text {
+    grid-area: text;
+}
+
+.author {
+    grid-area: author;
+    font-size: 0.8rem;
+    font-style: italic;
+
+}
+
+#posts .post:hover {
+    background-color: rgb(219, 219, 219);
+    transition: 1s;
+}
+
+#chosenPost {
+    margin-top: 50px;
+    padding: 20px 40px 20px;
+    background-color: whitesmoke;
+}
+
+#commentSection {
+    grid-area: comments;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+#commentSection .post {
+    padding: 10px;
+    background-color: rgb(219, 219, 219);
+}
+
+#commentSection .post p {
+    margin: 5px;
+}
+
+#comment {
+    width: 100%;
+    min-height: 50px;
+}
+
+#newPost {
+    min-width: 300px;
+    background-color: rgb(185, 192, 179);
+    padding: 30px;
+    margin-bottom: 100px;
+}
+
+#textarea {
+    min-height: 350px;
+    width: 100%;
+}
+
+.btn {
+    font-size: 20px;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: rgb(215, 143, 61);
+    color: whitesmoke;
+    border: none;
+}
+
+.btn:hover, #editPost:hover, #deleteBtn:hover {
+    background-color: rgb(224, 196, 127);
+}
+
+a #returnBtn {
+    text-decoration: underline;
+    color: white;
+    margin-top: -20px;
+    float: right;
+}
+
+#editPost {
+    float: right;
+    margin-top: -53px;
+}
+
+#deleteBtn {
+    background-color: red;
+    float: right;
+    margin-top: -60px;
+}
+
+#login, #logout {
+    background: none;
+    border: none;
+}
+
+#login:hover, #logout:hover, a:hover {
+    color: rgb(160, 166, 154);
+    transition: 0.7s;
+}
+
+#loginForm {
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr 1fr;
+    grid-template-rows: 25px 5% 25px 50px;
+    grid-template-areas: 
+    " . user userinput . "
+    " .   .       .    . "
+    " . pass passinput . "
+    " .   .   loginbtn . ";
+    background-color: rgb(219, 219, 219);
+    height: 200px;
+    justify-content: center;
+    padding-top: 10%;
+}
+
+#user {
+    grid-area: user;
+}
+
+#uname {
+    grid-area: userinput;
+}
+
+#pass {
+    grid-area: pass;
+}
+
+#psw {
+    grid-area: passinput;
+}
+
+#loginForm .btn {
+    grid-area: loginbtn;
+    font-size: 80%;
+}
+
+.date, .author {
+    text-align: right;
+}
+
+#msg {
+    color: rgb(45, 117, 139);
+    font-weight: bold;
+}
+
+#pagination {
+    display: inline-block;
+}
+
+#pagination a {
+    float: left;
+    padding: 6px 12px;
+    border-radius: 20px;
+}
+
+#pagination a:hover {
+    background-color: rgb(185, 192, 179);
+    color: black;
+}
+
+
+.postLink div {
+    color: black;
+}
+
+a, .postLink {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+img {
+    height: 60px;
+    margin: 0 10px;
+}
+
+@media screen and (max-width: 1100px) {
+
+}

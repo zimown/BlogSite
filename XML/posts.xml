@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<rss version="2.0">
+<channel>
+    <title>Journaling The newest posts</title>
+    <link>http://Journaling</link>
+    <description>Personal journal</description>
+        
+    
+<item><title>ff</title><description>ff</description><link>http://localhost/shared/kursuppgift/post.php?post=41</link><pubDate>Wed, 26 Oct 2022 20:12:29 +0200</pubDate></item>
+
+<item><title>ff</title><description>ff</description><link>http://localhost/shared/kursuppgift/post.php?post=41</link><pubDate>Wed, 26 Oct 2022 20:13:10 +0200</pubDate></item>
+
+<item><title>fdsfs</title><description>fsdfsd</description><link>http://localhost/shared/kursuppgift/post.php?post=43</link><pubDate>Wed, 26 Oct 2022 20:14:45 +0200</pubDate></item>
+
+<item>
+    <title>katt</title>
+    <description>mat</description>
+    <link>http://localhost/shared/kursuppgift/post.php?post=44</link>
+    <pubDate>Wed, 26 Oct 2022 20:15:38 +0200</pubDate>
+</item>
+<item><title>mine</title><description>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure do</description><link>http://localhost/shared/kursuppgift/post.php?post=46</link><pubDate>Wed, 26 Oct 2022 20:46:01 +0200</pubDate></item
+    ><item><title>new</title><description>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure do</description><link>http://localhost/shared/kursuppgift/post.php?post=47</link><pubDate>Thu, 27 Oct 2022 09:34:14 +0200</pubDate></item>
+    <item><title>whut</title><description>lorem ipsum</description><link>http://localhost/shared/kursuppgift/post.php?post=48</link><pubDate>Thu, 27 Oct 2022 09:44:22 +0200</pubDate></item>
+</channel>
+</rss>
